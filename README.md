@@ -17,6 +17,7 @@
 | [regression.md](regression.md) | 回归验证规则 |
 | [performance-baseline.md](performance-baseline.md) | 性能基线规范 |
 | [automated-verification.md](automated-verification.md) | 自动化验证脚本体系 |
+| [cross-agent-review.md](cross-agent-review.md) | 交叉评审机制（编码/评审分离） |
 | [anti-bias-review.md](anti-bias-review.md) | 对抗自评偏差（举证式评审） |
 | [circuit-breaker.md](circuit-breaker.md) | 评审熔断机制（防无限循环） |
 | [human-review-tiers.md](human-review-tiers.md) | 人工审核分级（L1/L2/L3） |
