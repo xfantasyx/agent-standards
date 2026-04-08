@@ -17,6 +17,11 @@
 | [regression.md](regression.md) | 回归验证规则 |
 | [performance-baseline.md](performance-baseline.md) | 性能基线规范 |
 | [automated-verification.md](automated-verification.md) | 自动化验证脚本体系 |
+| [anti-bias-review.md](anti-bias-review.md) | 对抗自评偏差（举证式评审） |
+| [circuit-breaker.md](circuit-breaker.md) | 评审熔断机制（防无限循环） |
+| [human-review-tiers.md](human-review-tiers.md) | 人工审核分级（L1/L2/L3） |
+| [visual-review.md](visual-review.md) | 视觉质量评审协议 |
+| [safeguards.md](safeguards.md) | 安全保障（hash雪崩/规则质量/并行冲突/测试分级/冷启动/回滚） |
 | [review-report-template.md](review-report-template.md) | 评审报告模板 |
 | [full-workflow.md](full-workflow.md) | 完整评审流程总览 |
 
