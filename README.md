@@ -7,13 +7,16 @@
 | 文件 | 说明 |
 |------|------|
 | [design-review.md](design-review.md) | 编码前设计评审流程与模板 |
+| [spec-layer.md](spec-layer.md) | Spec 规格层（编码契约，接口签名+边界约束+验收断言） |
 | [test-first.md](test-first.md) | 测试先行（TDD）规范 |
+| [self-check-gates.md](self-check-gates.md) | 自检门（编码阶段前置检查 H/I/G） |
 | [incremental-checkpoint.md](incremental-checkpoint.md) | 增量检查点机制 |
-| [quality-gate.md](quality-gate.md) | 12 项质量评审门禁细则 |
+| [quality-gate.md](quality-gate.md) | 13 项质量评审门禁细则 |
 | [never-again.md](never-again.md) | Never Again 规则引擎机制 |
 | [patterns.md](patterns.md) | 模式库规范（"应该怎么做"） |
 | [regression.md](regression.md) | 回归验证规则 |
 | [performance-baseline.md](performance-baseline.md) | 性能基线规范 |
+| [automated-verification.md](automated-verification.md) | 自动化验证脚本体系 |
 | [review-report-template.md](review-report-template.md) | 评审报告模板 |
 | [full-workflow.md](full-workflow.md) | 完整评审流程总览 |
 
@@ -30,6 +33,8 @@ Agent 编码标准参见：~/.claude/agent-standards/
 ## 项目层需自建
 
 每个项目需要自建以下文件/目录：
+- `specs/` — Spec 文件目录（编码契约）
 - `rules/` — Never Again 规则库（项目特有）
 - `benchmarks/` — 性能基线数据（项目特有）
 - `patterns.md` — 项目专属模式库（编码模式与设计决策）
+- `tools/` — 自动化验证脚本（逐步建设）
